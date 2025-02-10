@@ -1,0 +1,55 @@
+body {
+    padding-left: 10%;
+    padding-right:10%;
+    background-color: #efefef;
+  }
+  
+  h1 {
+    font-size: 3em;
+    color: #41B6E6;
+    font-family: Helvetica;
+  }
+  
+  
+  #byline {
+    font-size: 1.1em;
+  }
+  
+  p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding-bottom: 20px;
+  }
+  
+  .img-container {
+    width: 100%;
+  }
+  
+  img {
+    margin: auto;
+    display: block;
+  }
+  
+  .cutline {
+    font-size: 10px;
+  }
+  
+  #contact {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  /* responsive design */
+  #content {
+    width: 50%;
+    margin: auto;
+  }
+  
+  @media (orientation: portrait) {
+    #content {
+      width: 100%;
+    }
+  }
