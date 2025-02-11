@@ -32,6 +32,12 @@ body {
     margin: auto;
     display: block;
   }
+
+  h2 {
+    font-size: 1.8 em;
+    color: #4E2A84;
+    font-family:Arial
+  }
   
   .cutline {
     font-size: 10px;
