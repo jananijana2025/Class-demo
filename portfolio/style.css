@@ -1,7 +1,6 @@
 /*desktop*/
-
 #content {
-    width: 50%;
+    width: 75%;
     margin: auto;
     line-height: 1.5em;
     font-size: 1.5em;
@@ -10,38 +9,24 @@
 /*phone*/
 
 @media (orientation: portrait) {
-    #content
+   { #content
      {width:100%;
     line-height: 1.5 em;
     font-size: 1.5 em;}
 }
+
 #nav-bar {
     display: flex;
     flex-direction: row;
-    background-color: bisque;
+    background-color:rgba(205, 106, 40, 0.627) ;
 }
 
-#nav-button {
+.nav-button {
     margin: auto;}
 
-#nav-button About{
-    color: rgb(157, 15, 223);
+.nav-button a {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
     text-decoration: none;
-    background-color: white;
-    font-weight: bold;
-}
-    
-    
-#nav-button Contact{
-    color: rgb(157, 15, 223);
-    text-decoration: none;
-    background-color: white;
-    font-weight: bold;
-}
-
-#nav-button Blog{
-    color: rgb(157, 15, 223);
-    text-decoration: none;
-    background-color: white;
     font-weight: bold;
 }
