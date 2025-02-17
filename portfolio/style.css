@@ -37,11 +37,12 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #252290;
-
 }
 
 .nav-button {
-    margin: auto;}
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .nav-button a {
     font-family: 'Courier New', Courier, monospace;
