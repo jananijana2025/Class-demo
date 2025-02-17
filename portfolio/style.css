@@ -3,20 +3,45 @@
 #content {
     width: 50%;
     margin: auto;
+    line-height: 1.5em;
+    font-size: 1.5em;
 }
 
 /*phone*/
 
 @media (orientation: portrait) {
-    #content {width:50%;
+    #content
+     {width:100%;
     line-height: 1.5 em;
     font-size: 1.5 em;}
 }
 #nav-bar {
     display: flex;
     flex-direction: row;
+    background-color: bisque;
 }
 
 #nav-button {
-    margin: auto;
+    margin: auto;}
+
+#nav-button About{
+    color: rgb(157, 15, 223);
+    text-decoration: none;
+    background-color: white;
+    font-weight: bold;
+}
+    
+    
+#nav-button Contact{
+    color: rgb(157, 15, 223);
+    text-decoration: none;
+    background-color: white;
+    font-weight: bold;
+}
+
+#nav-button Blog{
+    color: rgb(157, 15, 223);
+    text-decoration: none;
+    background-color: white;
+    font-weight: bold;
 }
