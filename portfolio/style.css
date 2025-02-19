@@ -29,6 +29,15 @@ body {
     background-color: rgb(189, 189, 203);
 
   }
+
+  ul {
+    margin: auto;
+    font-size: 1.0em;
+    color: #353773;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(189, 189, 203);     
+  }
+
 /*desktop*/
 #content {
     width: 75%;
