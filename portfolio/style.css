@@ -8,13 +8,13 @@ body {
     padding-left: 20%;
     padding-right: 20%;
     font-size: 2.5em;
-    color: #902222;
+    color: #6f1717;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
   }
 
   h2 {
     font-size: 1.0em;
-    color: #902222;
+    color: #6f1717;
     font-family:
 
   }
@@ -28,7 +28,7 @@ body {
 
 /*phone*/
 
-@media (orientation: portrait) {
+@media (orientation: portrait) 
    { #content
      {width:100%;
     line-height: 1.5 em;
@@ -36,10 +36,9 @@ body {
 }
 
 #nav-bar {
-    padding: auto;
     display: flex;
-    flex-direction:inherit
-}
+    flex-direction:row ;
+    font-family:'Merriweather';}
 
 .nav-button {
     padding-left: 5%;
