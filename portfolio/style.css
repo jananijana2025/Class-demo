@@ -1,14 +1,14 @@
 body {
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #eddfd8;
+    
   }
   
   h1 {
     padding-left: 20%;
     padding-right: 20%;
     font-size: 2.5em;
-    color: #6f1717;
+    color:#353773;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
   }
 
@@ -24,8 +24,9 @@ body {
 
   h2 {
     font-size: 1.0em;
-    color: #6f1717;
-    font-family:
+    color: #353773;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(189, 189, 203);
 
   }
 /*desktop*/
@@ -48,7 +49,9 @@ body {
 #nav-bar {
     display: flex;
     flex-direction:row ;
-    font-family:'Merriweather';}
+    font-family:''Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif';
+  background-color: rgb(189, 189, 203)
+}
 
 .nav-button {
     padding-left: 5%;
@@ -57,7 +60,6 @@ body {
 
 .nav-button a {
     font-family: 'Courier New', Courier, monospace;
-    background-color:#eddfd8;
     text-decoration: none;
     font-weight: bold;
 }
