@@ -12,6 +12,16 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
   }
 
+
+  .img-container {
+    width: 100%;
+  }
+  
+  img {
+    margin: auto;
+    display: block;
+  }
+
   h2 {
     font-size: 1.0em;
     color: #6f1717;
