@@ -40,7 +40,7 @@ body {
     color:#353773;
     margin: auto;
     font-size: 1.0em;
-    color: rgb(129, 124, 124)
+    color: rgb(129, 124, 124);
   }
   
   h3{
@@ -49,7 +49,7 @@ body {
     margin: auto;
     flex-direction:row;
     font-size: 1.0em;
-    color: rgb(129, 124, 124)
+    color: rgb(129, 124, 124);
   }
 
 
@@ -88,15 +88,14 @@ body {
 
 .nav-button {
     font-family: 'Trebuchet' serif;
-    color: rgb(129, 124, 124);
-    text-decoration:solid
+    color: rgb(242, 238, 238);
+    text-decoration:solid;
     font-weight: bold;
-    
 }
 
 .highlight
 {
-  color:rgb(129, 124, 124)
+  color:rgb(129, 124, 124);
 }
 
  
