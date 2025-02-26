@@ -10,7 +10,8 @@ body {
     color:#353773;
     font-family: Impact, sans-serif;
     text-decoration: solid;
-    
+    border:2px
+
   }
 
   h2 {
@@ -22,7 +23,8 @@ body {
   }
 
   .gallery{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     border: 1px solid hsl(0, 0%, 60%);
     margin: 5px;
     width: 200px;
