@@ -22,6 +22,9 @@ body {
     margin: auto;
     display: block;
     margin-top: 20px;
+    border: 1px;
+    border-radius: 1px;
+    border-color: #353773;
   }
 
   h2 {
@@ -32,21 +35,23 @@ body {
   }
 
   p {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #353773;
+    position:static; bottom: ;
+    text-decoration: underline; 
+    color:#353773;
+    margin: auto;
+    font-size: 1.0em;
+    color: rgb(129, 124, 124)
   }
-
-  ul
-  {
-    position: bottom;
+  
+  h3{
+    position:static; bottom: ;
+    text-indent: 1pc;
     margin: auto;
     flex-direction:row;
     font-size: 1.0em;
-    color: rgb(129, 124, 124);
-    font-family: 'Trebuchet MS', sans-serif;
-    font-weight: bolder;    
+    color: rgb(129, 124, 124)
   }
+
 
 /*desktop*/
 #content {
@@ -55,6 +60,7 @@ body {
     line-height: 1.5em;
     font-size: 1.5em;
 }
+
 
 /*phone*/
 
