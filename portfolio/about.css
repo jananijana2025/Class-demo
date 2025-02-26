@@ -21,11 +21,19 @@ body {
     text-indent: 1pc;
     font-family: 'Trebuchet MS', sans-serif
   }
-
-  .gallery{
+   
+  .img-container {
     display: flex;
     flex-direction: row;
-    border: 1px solid hsl(0, 0%, 60%);
+  }
+  
+  img {
+    margin: auto;
+    display: block;
+  }
+
+  .gallery{
+    border: 1px solid #353773;
     margin: 5px;
     width: 200px;
 }
