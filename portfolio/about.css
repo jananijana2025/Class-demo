@@ -22,7 +22,7 @@ body {
     font-family: 'Trebuchet MS', sans-serif
   }
    
-  .img-container {
+  .image-container {
     display: flex;
     flex-direction: row;
   }
